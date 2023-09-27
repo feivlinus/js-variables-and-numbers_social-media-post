@@ -10,7 +10,11 @@ console.clear();
 */
 
 // --v-- write your code here --v--
-
+const title = "some Title";
+const text = "This is some random text.";
+const likeCount = 0;
+const authorName = "Gordon Freeman";
+const isReported = false;
 // --^-- write your code here --^--
 
 /*
@@ -18,5 +22,13 @@ console.clear();
 */
 
 // --v-- write your code here --v--
+
+console.log("Title:", title);
+console.log("Text:", text);
+console.log("Likes:", likeCount);
+console.log("Autor:", authorName);
+console.log("Is Reported?", isReported);
+
+console.log("Likes:", likeCount + 1);
 
 // --^-- write your code here --^--
